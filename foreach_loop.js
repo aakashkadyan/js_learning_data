@@ -5,9 +5,15 @@
 
 let fruits = ['apple','banana','date','fig']
 
-fruits.forEach((fruit, index) => {
+// fruits.forEach((fruit, index) => {
 
-    console.log(`${index + 1}: ${fruit}`);
+//     console.log(`${index + 1}: ${fruit}`);
+
+
+// });
+
+fruits.forEach((element)=>{
+    console.log(element)
 
 
 });
