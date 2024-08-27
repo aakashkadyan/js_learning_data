@@ -58,3 +58,16 @@ const addNum = (a,b) => {
 addNum(4,5)
 
 
+//Foreach Loop works for arrays only...
+
+arr = ['mumbai','pune','delhi','kanpur'];
+arr.forEach((element,idx,arr) => {
+  console.log(element.toUpperCase(),idx,arr);
+
+});
+
+//square a number using foreach loop
+array = [1,2,3,4]
+array.forEach((ele) =>{
+  console.log(ele*ele);
+});
