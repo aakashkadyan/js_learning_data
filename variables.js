@@ -38,3 +38,20 @@ let function = 1;
 let class = 2;
 
 console.log(function + class)
+
+
+//Var - In this re-declaration & updation is possible & have global scope
+
+var isName = "aakash"; 
+var isName = "ravi";
+
+console.log(isName);
+
+
+//const - re-declaration & updation both are not possible after declaring the costant variable...have block level scope
+
+const myName = "aakash";
+const myName = "vinay"; // this is not possible when we are declaring a variable constant
+
+console.log(myName);
+
