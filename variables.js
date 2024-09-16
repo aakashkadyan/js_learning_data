@@ -51,7 +51,7 @@ console.log(isName);
 //const - re-declaration & updation both are not possible after declaring the costant variable...have block level scope
 
 const myName = "aakash";
-const myName = "vinay"; // this is not possible when we are declaring a variable constant
+const myName = "vinay"; // this re-declaration is not possible when we are declaring a variable constant
 
 console.log(myName);
 
