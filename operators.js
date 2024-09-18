@@ -49,3 +49,13 @@ console.log("Condtion 1 && Condition 2 is : ", condtion1 && condtion2); // In Lo
 console.log("Condtion 1 || Condition 2 is : ", condtion1 || condtion2); // In Logical if only one condition is True then it will give true
 console.log("Condtion 1 ! Condition 2 is : ", !(condtion2)); // gives always opposite result "not off" 
 
+//Ternary operators ?
+
+
+
+let age = 25;
+
+let result = age > 18 ? "He is adult" : "He is not an adult";
+
+
+console.log(result);
