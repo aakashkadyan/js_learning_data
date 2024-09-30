@@ -40,7 +40,7 @@ setTimeout(hello_2, 4000)
 
 
 
-callback hell----
+//callback hell----
 function getData(dataId, getNewData) {
 
     setTimeout (() =>{
