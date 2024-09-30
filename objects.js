@@ -15,9 +15,12 @@ console.log(employee['name']);
 console.log(employee.salary); 
 employee.salary = 12000; // updated salary
 console.log(employee.salary);
+employee.phone = '888888888'; // pushed a new key with value
+delete employee.phone; // delete an object
+delete employee.email;
 
 
 for (const key in employee){ // for in loop
-    console.log(key); // only keys
+    //console.log(key); // only keys
     console.log(`${key}: ${employee[key]}`); // print key with values using for in loop
 }
