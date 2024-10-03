@@ -59,3 +59,6 @@ class Engineer extends Person{
 };
 
 let perObj = new Engineer ();
+
+
+//Create a class having constructor and 

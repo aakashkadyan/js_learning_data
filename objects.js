@@ -20,7 +20,29 @@ delete employee.phone; // delete an object
 delete employee.email;
 
 
+
 for (const key in employee){ // for in loop
     //console.log(key); // only keys
     console.log(`${key}: ${employee[key]}`); // print key with values using for in loop
 }
+
+
+
+// referencing of objects and variables..
+
+let user_1 = {'name':'abhinav'};
+let admin = user_1
+console.log(user_1.name);
+console.log(admin.name);
+
+
+//cloning of objects
+
+
+let user_2 ={'name':'ravi','age':25};
+let clone ={}
+for (let key in user_2){
+
+    clone[key] = user_2[key];
+}
+console.log(clone.name);
