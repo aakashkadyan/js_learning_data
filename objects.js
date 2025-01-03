@@ -46,3 +46,12 @@ for (let key in user_2){
     clone[key] = user_2[key];
 }
 console.log(clone.name);
+
+//garbage collection
+
+let userInfo = {'name':'abhinash'};
+
+let admin_1 = userInfo; // referencing to the admin_1
+
+userInfo = null;  // unreachable to the object having name then it will be remains as garbage
+console.log(admin_1); // 
